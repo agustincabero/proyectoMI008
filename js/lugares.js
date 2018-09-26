@@ -15,7 +15,7 @@ lugaresModulo = (function () {
           visible: false,
           map: mapa
         };
-        var circulo = google.maps.Circle(circleOpts);
+        var circulo = new google.maps.Circle(circleOpts);
 
         var direccion = document.getElementById('direccion');
         var desde = document.getElementById('desde');
